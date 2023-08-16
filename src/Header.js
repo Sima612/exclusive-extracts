@@ -2,17 +2,20 @@ import { Disclosure, Menu } from "@headlessui/react";
 import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 
 const navigation = [
-  { name: "Home", href: "#", current: true },
-  { name: "About Us", href: "#", current: false },
-  { name: "Current Month Drops", href: "#", current: false },
-  { name: "Next Month Drops", href: "#", current: false },
+  { name: "Home", href: "/", current: true },
+  {
+    name: "Current Month Drops",
+    href: "current-month",
+    current: false,
+  },
+  { name: "Next Month Drops", href: "/next-month", current: false },
 ];
 
 function classNames(...classes) {
   return classes.filter(Boolean).join(" ");
 }
 
-export default function Header() {
+export default function Home() {
   return (
     <Disclosure as="nav" className="bg-gray-800">
       {({ open }) => (
@@ -60,8 +63,8 @@ export default function Header() {
                       <span className="absolute -inset-1.5" />
                       <span className="sr-only">Open user menu</span>
                       <img
-                        className="h-8 w-8 rounded-full"
-                        src="https://images.unsplash.com/photo-1691481593965-4a75f1500ac6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=3024&q=80"
+                        className="h-12 w-12 rounded-full"
+                        src="./logo.png"
                         alt=""
                       />
                     </Menu.Button>

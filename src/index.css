@@ -2,6 +2,45 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+  font-family: "Rubik";
+  src: url("./fonts/RubikWetPaint-Regular.ttf") format(truetype);
+}
+@font-face {
+  font-family: "Preah";
+  src: url("./fonts/Preahvihear-Regular.ttf") format(truetype);
+}
+
 * {
   /* border: 1px red solid; */
+}
+
+h1 {
+  font-family: "Rubik";
+}
+p {
+  font-family: "Preah";
+}
+h4 {
+  font-size: 14px;
+}
+
+#error-page {
+  width: 50%;
+  height: 50%;
+  margin: 15% auto 0;
+  text-align: center;
+}
+#error-page h1 {
+  font-size: 40px;
+  font-weight: bolder;
+}
+#error-page p {
+  font-size: small;
+  margin-top: 3rem;
+}
+#error-page p i {
+  font-style: italic;
+  color: gray;
+  font-weight: 500;
 }
