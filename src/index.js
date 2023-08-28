@@ -5,7 +5,8 @@ import ReactDOM from "react-dom/client";
 import Home from "./Home";
 import Error from "./error";
 import Products from "./Products";
-import { products } from "./db";
+import NewProducts from "./NewProducts";
+import { products, newProducts } from "./db";
 
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 
@@ -18,6 +19,10 @@ const router = createBrowserRouter([
   {
     path: "/current-month",
     element: <Products products={products} />,
+  },
+  {
+    path: "/next-month",
+    element: <NewProducts newProducts={newProducts} />,
   },
 ]);
 

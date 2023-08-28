@@ -1,17 +1,17 @@
 import Header from "./Header";
 
-export default function Products({ products }) {
+export default function NewProducts({ newProducts }) {
   return (
     <>
       <Header />
 
       <div className="bg-white">
-        <h1 className="text-center font-bold text-3xl mt-10">August</h1>
+        <h1 className="text-center font-bold text-3xl mt-10">September</h1>
         <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
           <h2 className="sr-only">Products</h2>
 
           <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
-            {products.map((product) => (
+            {newProducts.map((product) => (
               <a
                 key={product.id}
                 href={product.href}
