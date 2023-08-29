@@ -96,7 +96,7 @@ export const newProducts = [
   {
     id: 3,
     name: "Green Gushers",
-    desc: "Gushers bagseed",
+    desc: "Gushers Bagseed",
     href: "#",
     imageSrc: "./gushers.png",
     videoSrc: "",
@@ -146,7 +146,7 @@ export const newProducts = [
   {
     id: 8,
     name: "Dope House",
-    desc: "GMO x Grapes n Cream x Lcc",
+    desc: "GMO x Namwah x Creamsicle",
     href: "#",
     imageSrc: "./dopehouse.png",
     videoSrc: "",
