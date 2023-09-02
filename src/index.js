@@ -18,7 +18,7 @@ const router = createBrowserRouter([
   },
   {
     path: "/current-month",
-    element: <Products products={products} />,
+    element: <Products products={newProducts} />,
   },
   {
     path: "/next-month",
