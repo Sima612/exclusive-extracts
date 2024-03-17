@@ -1,15 +1,33 @@
 import Header from "./Header";
 
 export default function NewProducts({ newProducts }) {
+  const date = new Date();
+  const currentMonth = date.getMonth();
+  const monthNames = [
+    "January",
+    "February",
+    "March",
+    "April",
+    "May",
+    "June",
+    "July",
+    "August",
+    "September",
+    "October",
+    "November",
+    "December",
+  ];
   return (
     <>
       <Header />
       <div className="bg-white">
-        <h1 className="text-center font-bold text-4xl mt-10">October</h1>
+        <h1 className="text-center font-bold text-4xl mt-10">
+          {monthNames[currentMonth + 1]}
+        </h1>
         <div id="error-page">
           <p>Sorry, no new products yet.</p>
         </div>
-        {/* <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+        <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
           <h2 className="sr-only">Products</h2>
 
           <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
@@ -35,10 +53,10 @@ export default function NewProducts({ newProducts }) {
                   />
                 </div>
                 <div className="text-start">
-                  <h4 className="mt-4 text-2xl font-medium text-gray-700">
+                  <h4 className="h-12 mt-4 text-xl font-medium text-gray-700">
                     {product.name}
                   </h4>
-                  <h4 className="mt-4 font-medium text-gray-700">
+                  <h4 className="h-8 mt-4 font-medium text-gray-700">
                     {product.desc}
                   </h4>
                   <h4 className="mt-4 font-bold text-gray-700">
@@ -50,8 +68,8 @@ export default function NewProducts({ newProducts }) {
                 </div>
               </a>
             ))}
-          </div> 
-        </div>*/}
+          </div>
+        </div>
       </div>
     </>
   );
