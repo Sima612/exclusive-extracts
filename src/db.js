@@ -58,5 +58,49 @@ export const products = [
 
 export const newProducts = [
   // More products...
-  
+  {
+    name: "Red Mystery Airheads",
+    desc: "Fruit Punch X Mystery Red",
+    href: "#",
+    imageSrc: "./redairheads.jpeg",
+    videoSrc: "./redairheads.mp4",
+    temp: "Ideal Temperature 520",
+    note: "*** All dab temperatures are based on a serving size of 0.15. Larger or smaller dabs will effect the correct temperature you should be dabbing ***",
+  },
+  {
+    name: "Blue Mystery Airheads",
+    desc: "Rs11 X Mystery Blue",
+    href: "#",
+    imageSrc: "./blueairheads.jpeg",
+    videoSrc: "./blueairheads.mp4",
+    temp: "Ideal Temperature 520",
+    note: "*** All dab temperatures are based on a serving size of 0.15. Larger or smaller dabs will effect the correct temperature you should be dabbing ***",
+  },
+  {
+    name: "Pink Mystery Airheads",
+    desc: "Papaya X Mystery Pink",
+    href: "#",
+    imageSrc: "./pinkairheads.jpeg",
+    videoSrc: "./pinkairheads.mp4",
+    temp: "Ideal Temperature 520",
+    note: "*** All dab temperatures are based on a serving size of 0.15. Larger or smaller dabs will effect the correct temperature you should be dabbing ***",
+  },
+  {
+    name: "Orange Mystery Airheads",
+    desc: "Cherry Paloma X Mystery Orange",
+    href: "#",
+    imageSrc: "./orangeairheads.jpeg",
+    videoSrc: "./orangeairheads.mp4",
+    temp: "Ideal Temperature 520",
+    note: "*** All dab temperatures are based on a serving size of 0.15. Larger or smaller dabs will effect the correct temperature you should be dabbing ***",
+  },
+  {
+    name: "Green Mystery Airheads",
+    desc: "Funk Mountain X Mystery Green",
+    href: "#",
+    imageSrc: "./greenairheads.jpeg",
+    videoSrc: "./greenairheads.mp4",
+    temp: "Ideal Temperature 520",
+    note: "*** All dab temperatures are based on a serving size of 0.15. Larger or smaller dabs will effect the correct temperature you should be dabbing ***",
+  },
 ];
