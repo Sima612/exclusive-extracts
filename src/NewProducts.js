@@ -24,10 +24,10 @@ export default function NewProducts({ newProducts }) {
         <h1 className="text-center font-bold text-4xl mt-10">
           {monthNames[currentMonth + 1]}
         </h1>
-        {/* <div id="error-page">
+        <div id="error-page">
           <p>Sorry, no new products yet.</p>
-        </div> */}
-        <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
+        </div>
+        {/* <div className="mx-auto max-w-2xl px-4 py-16 sm:px-6 sm:py-24 lg:max-w-7xl lg:px-8">
           <h2 className="sr-only">Products</h2>
 
           <div className="grid grid-cols-1 gap-x-6 gap-y-10 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:gap-x-8">
@@ -69,7 +69,7 @@ export default function NewProducts({ newProducts }) {
               </a>
             ))}
           </div>
-        </div>
+        </div> */}
       </div>
     </>
   );

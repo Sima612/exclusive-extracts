@@ -14,7 +14,7 @@ function App() {
           <Route
             exact
             path="/current-month"
-            element={<Products products={products} />}
+            element={<Products products={newProducts} />}
           />
           <Route
             exact
