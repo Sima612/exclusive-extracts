@@ -3,7 +3,8 @@ import Home from "./Home";
 // import Error from "./error";
 import Products from "./Products";
 import NewProducts from "./NewProducts";
-import { products, newProducts } from "./db";
+import {newProducts } from "./db";
+// import { products, newProducts } from "./db";
 
 function App() {
   return (
