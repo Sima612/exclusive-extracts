@@ -1,31 +1,25 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import NavBar from "./NavBar";
 import Home from "./Home";
-// import Error from "./error";
 import Products from "./Products";
 import NewProducts from "./NewProducts";
-import {newProducts } from "./db";
-// import { products, newProducts } from "./db";
+import { products } from "./db";
 
-function App() {
+export default function App() {
   return (
     <div className="main">
+      <NavBar />
       <BrowserRouter>
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route
             exact
             path="/current-month"
-            element={<Products products={newProducts} />}
+            element={<Products products={products} />}
           />
-          <Route
-            exact
-            path="/next-month"
-            element={<NewProducts newProducts={newProducts} />}
-          />
+          <Route exact path="/next-month" element={<NewProducts />} />
         </Routes>
       </BrowserRouter>
     </div>
   );
 }
-
-export default App;

@@ -1,4 +1,4 @@
-import Header from "./Header";
+import Header from "./NavBar";
 
 export default function NewProducts({ newProducts }) {
   const date = new Date();
@@ -19,7 +19,6 @@ export default function NewProducts({ newProducts }) {
   ];
   return (
     <>
-      <Header />
       <div className="bg-white">
         <h1 className="text-center font-bold text-4xl mt-10">
           {monthNames[currentMonth + 1]}

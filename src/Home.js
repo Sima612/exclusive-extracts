@@ -1,10 +1,9 @@
-import Header from "./Header";
+import Header from "./NavBar";
 import logo from "./images/SweetSolventless.png";
 
 export default function Home() {
   return (
     <>
-      <Header />
       <main className="container mx-auto w-3/4 h-full flex justify-evenly relative ...">
         <div className="w-full md:w-1/2 lg:w-1/2 -z-10 absolute top-36">
           <img className="rounded-full opacity-30" src={logo} alt="logo" />
