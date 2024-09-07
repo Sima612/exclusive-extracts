@@ -1,4 +1,4 @@
-import { Disclosure, Menu } from "@headlessui/react";
+import { Menu } from "@headlessui/react";
 import logo from "./images/SweetSolventless.png";
 
 export default function Logo() {

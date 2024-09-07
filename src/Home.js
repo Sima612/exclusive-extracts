@@ -1,4 +1,3 @@
-import Header from "./NavBar";
 import logo from "./images/SweetSolventless.png";
 
 export default function Home() {

@@ -1,5 +1,3 @@
-import Header from "./NavBar";
-
 export default function NewProducts({ newProducts }) {
   const date = new Date();
   const currentMonth = date.getMonth();
