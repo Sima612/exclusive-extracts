@@ -63,4 +63,13 @@ export const products = [
     temp: "Ideal Temperature 500",
     note: "*** All dab temperatures are based on a serving size of 0.15. Larger or smaller dabs will effect the correct temperature you should be dabbing ***",
   },
+  {
+    name: "Purple Z",
+    desc: "Grape Pie x Skittles",
+    href: "#",
+    imageSrc: "./images/purplez.jpeg",
+    videoSrc: "./videos/purplez.mp4",
+    temp: "Ideal Temperature 520",
+    note: "*** All dab temperatures are based on a serving size of 0.15. Larger or smaller dabs will effect the correct temperature you should be dabbing ***",
+  },
 ];
