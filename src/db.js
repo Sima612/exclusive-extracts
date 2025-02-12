@@ -56,7 +56,7 @@ export const products = [
   },
   {
     name: "Sweet Papaya",
-    desc: "Pie x Papaya",
+    desc: "Grape Pie x Papaya",
     href: "#",
     imageSrc: "./images/sweetpapaya.jpeg",
     videoSrc: "./videos/sweetpapaya.mp4",
