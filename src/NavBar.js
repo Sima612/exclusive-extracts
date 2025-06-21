@@ -6,11 +6,10 @@ import Tab from "./Tab";
 const navigation = [
   { name: "About", href: "/", current: true },
   {
-    name: "Current Month Drops",
+    name: "Monthly Drops",
     href: "current-month",
     current: false,
   },
-  { name: "Next Month Drops", href: "next-month", current: false },
 ];
 
 function classNames(...classes) {
