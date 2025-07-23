@@ -33,7 +33,7 @@ export const products = [
     href: "#",
     imageSrc: "./images/orangecream.jpeg",
     videoSrc: "./videos/orangecream.mp4",
-    temp: "Ideal Temperature 500",
+    temp: "Ideal Temperature 520",
     note: "*** All dab temperatures are based on a serving size of 0.15. Larger or smaller dabs will effect the correct temperature you should be dabbing ***",
   },
   {
