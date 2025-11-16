@@ -1,7 +1,7 @@
 export const products = [
   // More products...
   {
-    name: "Garlic Juice 84g 'Nah 4 Real'",
+    name: "Garlic Juice 'Nah 4 Real'",
     desc: "Papaya X GMO",
     href: "#",
     imageSrc: "./images/nah4real.jpeg",
@@ -46,7 +46,7 @@ export const products = [
     note: "*** All dab temperatures are based on a serving size of 0.15. Larger or smaller dabs will effect the correct temperature you should be dabbing ***",
   },
   {
-    name: "Key Lime Zuru (Xena Warrior Princess)",
+    name: "Xena",
     desc: "Key Lime Pie #5",
     href: "#",
     imageSrc: "./images/xena.jpeg",
