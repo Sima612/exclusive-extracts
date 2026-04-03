@@ -20,7 +20,7 @@ export const products = [
   },
   {
     name: "Berry Fizz",
-    desc: "Red Piegame x Papaya",
+    desc: "Red Piegasm x Papaya",
     href: "#",
     imageSrc: "./images/Berry.jpg",
     videoSrc: "./videos/Berry.mp4",
